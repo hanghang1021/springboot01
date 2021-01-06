@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.springboot01.dao.UserDao">
+
+    <select id="getList" resultType="com.qf.springboot01.entity.Users">
+        select * from Users
+    </select>
+</mapper>
